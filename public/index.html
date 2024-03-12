@@ -46,10 +46,6 @@
         max-width: 1000px;
         margin: 0 auto;
         padding: 0 20px;
-        border-top-left-radius: 200px;
-        border-bottom-left-radius: 200px;
-        border-bottom-right-radius: 30%;
-        border-top-right-radius: 30%;
       }
       .uc_h2 {
         border: solid rgb(212, 206, 206);
@@ -68,13 +64,11 @@
       }
       
       .container_box {
-        display: flex;/**/
-        justify-content: space-around;/*  */
+        display: flex;
+        justify-content: space-around;
       }
       header .second{
-       
         width: 60vw;
-      
       }
       h1 {
         text-align: center;
@@ -147,9 +141,7 @@
         transition: 0.5s;
         margin-bottom: 8vh;
       }
-      .competitions article:hover {
-        box-shadow: 10px 10px 10px white;
-      }
+    
       
       .competitions h3 {
         margin-bottom: 10px; /* Added spacing */
@@ -184,7 +176,6 @@
       }
       .competition h3 {
         font-size: 3em;
-        background-color: grey;
         width: 33%;
         color: white;
       }
@@ -393,440 +384,28 @@
       
         margin: 0 auto;
       }
-      /* Responsiveness (consider using a CSS framework like Bootstrap for a more comprehensive approach) */
-      
-      @media only screen and (max-width: 768px){
-        * {
-        margin: 0%;
-        padding: 0%;
-        scroll-behavior: smooth;
-      }
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background: linear-gradient(180deg,black,rgb(75, 0, 110),rgb(159, 23, 238));
-       
-       
-          background :  linear-gradient(45deg, #ff8282,#35013a,black);
-          background-size: 600% 600%; 
-          animation: gradientAnimation 3s ease-in-out infinite;
-       
-    }
-
-    @keyframes gradientAnimation {
-    0% {
-        background-position: 0% 50%; 
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%; 
-}}
-    
-      header {
-        background-color: rgb(0, 0, 0);
-        padding: 20px 0;
-        width: 100vw;
-      }
-      
-      .container {
-        max-width: 480px;
-        margin: 0 auto;
-        padding: 0 20px;
-      }
-      .uc_h2 {
-        border: solid rgb(212, 206, 206);
-        border-width: 5px;
-        padding: 8px;
-        display: flex;
-        width: 100px;
-        width: fit-content;
-        height: 35px;
-        border-top-left-radius: 50px;
-        border-bottom-left-radius: 50px;
-        border-bottom-right-radius: 50px;
-        border-top-right-radius: 50px;
-      
-        margin: 0 auto;
-      }
-      
-      .container_box {
-        display: flex;/**/
-        justify-content: space-between;
-      }
-      header .second{
-        background-image: url("osc1.png"); 
-        background-repeat: no-repeat;
-        background-size:contain ;
-        width: 60vw;
-        
-      }
-      h1 {
-        text-align: center;
-        font-size: 2em;
-        margin-bottom: 0;
-        /* position: fixed; */
-      }
-      
-     
-      .logo-left {
-        float: left;
-        width: 15vw;
-      }
-      .logo-mid{
-        display: none;
-      }
-    
-      .logo-right {
-        /* width: 20vw; */
-        float: right;
-        width: 15vw;
-      }
-      
-      nav {
-        /* border: 2px solid white; */
-        /* border-radius: 5%; */
-        border-top-color: white;
-        background:linear-gradient(180deg,black,rgb(75, 0, 110),black);
-        padding: 10px 0; 
-        transition: 0.5s;
-      }
-
-      
-      nav ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-      }
-      
-      nav li {
-        display: inline-block;
-        margin: 0 20px;
-      }
-      
-      nav a {
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
-        transition: 0.5s;
-        transform: scale(1.1);
-      }
-      
-      nav a:hover {
-       color: whitesmoke;
-       
-      }
-      section h2 {
-        text-align: center;
-        margin-bottom: 20px;
-      }
-      
-      .competitions article {
-        background-color: #fff;
-        /* padding: 20px; */
-        border-radius: 6px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        transition: 0.5s;
-        margin-bottom: 8vh;
-      }
-      .competitions article:hover {
-        box-shadow: 10px 10px 10px white;
-      }
-      
-      .competitions h3 {
-        margin-bottom: 10px; /* Added spacing */
-      }
-      
-      .competitions p {
-        margin-bottom: 15px; /* Added spacing */
-      }
-      .competitions a {
-        display: inline-block;
-        padding: 5px 10px;
-        background-color: #333;
-        color: #fff;
-        text-decoration: none;
-        border-radius: 3px;
-        margin-bottom: 8vh;
-      }
-      .competition6 {
-        margin-bottom: 0vh;
-      }
-      
-      .competition h3 {
-        color: grey;
-        /* display: flex;
-            align-items: center; */
-        /* justify-content: space-around; */
-      }
-      
-      .competitions a:hover {
-        background-color: #222;
-      }
-      .competition {
-        height: 23.4vh;
-        font-family: "consolas";
-      }
-      .competition h3 {
-        font-size: 3em;
-        background-color: grey;
-        width: 33%;
-        color: white;
-      }
-      
-      .competition a {
-        font-size: 2em;
-        background-color: #646363;
-        position: relative;
-        /* top: 18.45vh; */
-        width: 95%;
-        background-color: #22222200;
-        height: 100%;
-      }
-      .competition p {
-        font-size: 2em;
-        color: grey;
-      }
-    
-      .competitions h2 {
-        color: white;
-        border-radius: 10%;
-      }
-      .competition1 {
-        background: url(bugshi.webp);
-        background-size: cover;
-        /* width: 65vh; */
-        
-        background-repeat: no-repeat;
-        color: white;
-      }
-      .competition2 {
-        background: url(blindshi.webp);
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
-      .competition3 {
-        background: url(hack.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
-      .competition3 h3 {
-        width: 25%; 
-      }
-      .competition4 {
-        background: url(chess.webp);
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
-      .competition4 h3 {
-        width: 14%;
-      }
-      .competition5 {
-        background: url(treasureshi.webp);
-        background-size: cover;
-      }
-      .competition5 h3 {
-        width: 35%;
-      }
-      .competition6 {
-        background: url(project.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin: 0%;
-      }
-      .competition6 h3 {
-        width: 55%;
-      }
-
-      .contain {
-        display: flex;
-        justify-content: space-around;
-        text-align: center;
-        align-items: center;
-        height: 14vh;
-        /* width: 30vh; */
-        /* background: l; */
-      }
-      .comittee1 {
-        background: url(clg_icon.png);
-        background-size: cover;
-      }
-      .comittee2 {
-        background: url(clg_icon.png);
-        background-size: cover;
-      }
-      .comittee3 {
-        background: url(clg_icon.png);
-        background-size: cover;
-      }
-      .comittee4 {
-        background: url(clg_icon.png);
-        background-size: cover;
-      }
-      .comittee5 {
-        background: url(clg_icon.png);
-        background-size: cover;
-      }
-      .comittee6 {
-        background: url(clg_icon.png);
-        background-size: cover;
-      }
-      .com {
-        border-radius: 50%;
-        background-color: green;
-        height: 13vh;
-        width: 30vw;
-        border: 2px solid black;
-      }
-      .utg_h2 {
-        border: solid white;
-        border-width: 5px;
-        color:white;
-        padding: 8px;
-        display: flex;
-        width: 100px;
-        width: fit-content;
-        height: 35px;
-        border-top-left-radius: 50px;
-        border-bottom-left-radius: 50px;
-        border-bottom-right-radius: 50px;
-        border-top-right-radius: 50px;
-      
-        margin: 0 auto;
-      }
-      .cm_h2 {
-        border: solid white;
-        border-width: 5px;
-        color:white;
-        padding: 8px;
-        display: flex;
-        width: 100px;
-        width: fit-content;
-        height: 35px;
-        border-top-left-radius: 50px;
-        border-bottom-left-radius: 50px;
-        border-bottom-right-radius: 50px;
-        border-top-right-radius: 50px;
-      
-        margin: 0 auto;
-      }
-      .container3 {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 13vh;
-      }
-      h2 {
-        text-align: center;
-      }
-      .fac {
-        border-radius: 50%;
-        background-color: yellow;
-        height: 14vh;
-        width: 30vw;
-        border: 2px solid black;
-      }
-      .faculty1 {
-        background: url(clg_icon.png);
-        background-size: cover;
-      }
-      .faculty2 {
-        background: url(clg_icon.png);
-        background-size: cover;
-      }
-      .faculty3 {
-        background: url(clg_icon.png);
-        background-size: cover;
-      }
-      
-      .foot {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 20vh;
-        background-color: rgb(0, 0, 0);
-      }
-      
-      .foot h2 {
-        margin: 10vw 10vw;
-        overflow: hidden;/* temporary fix*/
-      }
-      .foot {
-          height: auto; /* Change height to auto for smaller screens */
-          flex-wrap: wrap; /* Allow items to wrap */
-          justify-content: center; /* Center the content horizontally */
-          align-items: center; /* Center the content vertically */
+      .names{
+          color: #fff;
+          position: relative;
+          top: 40vh;
+          font-size: 2rem;
+          text-align: center;
+          background-color: rgb(236, 107, 107);
         }
-      
-        .foot h2 {
-          margin: 5px; /* Further adjust margin for smaller screens */
-          font-size: 1em; /* Further adjust font size for smaller screens */
-        }
-      
-      .foot a {
-        text-decoration: none;
-        color: white;
-        transition: 0.5s;
-      }
-      /* .foot a:hover {
+        .uc_h2  h2{
         font-size: 2rem;
-      } */
-      #foot2{
-        font-size: 1.5em;
+        text-align: center;
+   
       }
-      /* Footer section */
-      .contact {
-        border: solid white;
-        color:white;
-        border-width: 5px;
-        padding: 10px;
-        display: flex;
-        width: 100px;
-        width: fit-content;
-        height: 28px;
-        border-top-left-radius: 50px;
-        border-bottom-left-radius: 50px;
-        border-bottom-right-radius: 50px;
-        border-top-right-radius: 50px;
+      .uc_h2{
+       width: 20vw;
+       height: 5vh; 
+      }
       
-        margin: 0 auto;
-      }
-
-
-    }
-      @media only screen and (max-width: 480px) {
-        * {
-        margin: 0%;
-        padding: 0%;
-        scroll-behavior: smooth;
-      }
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background: linear-gradient(180deg,black,rgb(75, 0, 110),rgb(159, 23, 238));
+      /* Responsiveness (consider using a CSS framework like Bootstrap for a more comprehensive approach) */
+     
+      @media only screen and (max-width: 1400px) {
        
-       
-          background :  linear-gradient(45deg, #ff8282,#35013a,black);
-          background-size: 600% 600%; 
-          animation: gradientAnimation 3s ease-in-out infinite;
-       
-    }
-
-    @keyframes gradientAnimation {
-    0% {
-        background-position: 0% 50%; 
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%; 
-}}
-    
       header {
         background-color: rgb(0, 0, 0);
         padding: 20px 0;
@@ -834,24 +413,16 @@
       }
       
       .container {
-        max-width: 480px;
-        margin: 0 auto;
-        padding: 0 20px;
+        margin: 0 20vw;
       }
-      .uc_h2 {
-        border: solid rgb(212, 206, 206);
-        border-width: 5px;
-        padding: 8px;
-        display: flex;
-        width: 100px;
-        width: fit-content;
-        height: 35px;
-        border-top-left-radius: 50px;
-        border-bottom-left-radius: 50px;
-        border-bottom-right-radius: 50px;
-        border-top-right-radius: 50px;
-      
-        margin: 0 auto;
+      .uc_h2  h2{
+        font-size: 1.2rem;
+        text-align: center;
+   
+      }
+      .uc_h2{
+       width: 60vw;
+       height: 3vh; 
       }
       
       #navbar li{
@@ -859,306 +430,73 @@
         font-size: 0.7rem;
         width: 25vw;
       }
-      .container_box {
-        display: flex;
-        justify-content: space-between;
-      }
+
       header .second{
         background-image: url("osc1.png"); 
         background-repeat: no-repeat;
         background-size:contain ;
         width: 60vw;
         
-      }
-      h1 {
-        text-align: center;
-        font-size: 2em;
-        margin-bottom: 0;
-      }
-      
-     
-      .logo-left {
-        float: left;
-        width: 15vw;
+      }     
+      .logo-left{
+        width: 10vw;
       }
       .logo-mid{
         display: none;
       }
-    
-      .logo-right {
-        float: right;
-        width: 15vw;
-      }
-      
-      nav {
-      
-        border-top-color: white;
-        background:linear-gradient(180deg,black,rgb(75, 0, 110),black);
-        padding: 10px 0; 
-        transition: 0.5s;
-      }
+      .logo-right{
 
-      
-      nav ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-      }
-      
-      nav li {
-        display: inline-block;
-        margin: 0 20px;
-      }
-      
-      nav a {
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
-        transition: 0.5s;
-        transform: scale(1.1);
-      }
-      
-      nav a:hover {
-       color: whitesmoke;
-       
-      }
-      section h2 {
-        text-align: center;
-        margin-bottom: 20px;
-      }
-      
-      .competitions article {
-        background-color: #fff;
-        border-radius: 6px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        transition: 0.5s;
-        margin-bottom: 8vh;
-      }
-      .competitions article:hover {
-        box-shadow: 10px 10px 10px white;
-      }
-      
-      .competitions h3 {
-        margin-bottom: 10px; 
-      }
-      
-      .competitions p {
-        margin-bottom: 15px;
-      }
-      .competitions a {
-        display: inline-block;
-        padding: 5px 10px;
-      
-        color: #ffffff00;
-        text-decoration: none;
-        border-radius: 3px;
-        margin-bottom: 8vh;
-      }
-      .competition6 {
-        margin-bottom: 0vh;
-      }
-      
-      .competition h3 {
-        color: grey;
-     
-      }
-      
+      }      
+
       .competitions a:active {
         background-color: rgba(0, 0, 0, 0);
       }
       .competition {
         height: 23.4vh;
-        font-family: "consolas";
-      }
-      .competition h3 {
-        font-size: 3em;
         
-        width: 33%;
-        color: white;
       }
-      
-      .competition a {
-        font-size: 2em;
-        
-        position: relative;
-        
-        width: 95%;
-        background-color: hsla(0, 0%, 0%, 0);
-        height: 100%;
+      .competition{
+        height: 40vh;
+        width: 58vw;
+        margin: 0;
       }
+
       .competition a:active{
         background-color: #00000000;
       }
       .competition a:visited{
         background-color: #00000000;
       }
-      .competition p {
-        font-size: 2em;
-        color: grey;
-      }
-    
-      .competitions h2 {
-        color: white;
-        border-radius: 10%;
-      }
-      .competition1 {
-        background: url(bugshi.webp);
-        background-size: cover;
-       
-        
-        background-repeat: no-repeat;
-        color: white;
-      }
-      .competition2 {
-        background: url(blindshi.webp);
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
-      .competition3 {
-        background: url(hack.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
-      .competition3 h3 {
-        width: 25%; 
-      }
-      .competition4 {
-        background: url(chess.webp);
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
-      .competition4 h3 {
-        width: 14%;
-      }
-      .competition5 {
-        background: url(treasureshi.webp);
-        background-size: cover;
-      }
-      .competition5 h3 {
-        width: 35%;
-      }
-      .competition6 {
-        background: url(project.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin: 0%;
-      }
-      .competition6 h3 {
-        width: 55%;
-      }
 
       .contain {
-        display: flex;
-        justify-content: space-around;
-        text-align: center;
-        align-items: center;
-        height: 14vh;
-       
+        /* height: 40vh; */
       }
-      .comittee1 {
-        background: url(clg_icon.png);
-        background-size: cover;
-      }
-      .comittee2 {
-        background: url(clg_icon.png);
-        background-size: cover;
-      }
-      .comittee3 {
-        background: url(clg_icon.png);
-        background-size: cover;
-      }
-      .comittee4 {
-        background: url(clg_icon.png);
-        background-size: cover;
-      }
-      .comittee5 {
-        background: url(clg_icon.png);
-        background-size: cover;
-      }
-      .comittee6 {
-        background: url(clg_icon.png);
-        background-size: cover;
-      }
+
       .com {
         border-radius: 50%;
         background-color: green;
-        height: 13vh;
+        height: 40vh;
         width: 30vw;
         border: 2px solid black;
       }
-      .utg_h2 {
-        border: solid white;
-        border-width: 5px;
-        color:white;
-        padding: 8px;
-        display: flex;
-        width: 100px;
-        width: fit-content;
-        height: 35px;
-        border-top-left-radius: 50px;
-        border-bottom-left-radius: 50px;
-        border-bottom-right-radius: 50px;
-        border-top-right-radius: 50px;
-      
-        margin: 0 auto;
-      }
-      .cm_h2 {
-        border: solid white;
-        border-width: 5px;
-        font-size: 0.9em;
-        color:white;
-        display: flex;
-        width: 100px;
-        width: fit-content;
-        height: 35px;
-        border-top-left-radius: 30px;
-        border-bottom-left-radius: 30px;
-        border-bottom-right-radius: 30px;
-        border-top-right-radius: 30px;
-        margin: 0 auto;
-      }
+
       .container3 {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        height: 13vh;
+        height: 40vh;
       }
-      h2 {
-        text-align: center;
-      }
+
       .fac {
         border-radius: 50%;
         background-color: yellow;
-        height: 14vh;
+        height: 40vh;
         width: 30vw;
         border: 2px solid black;
       }
-      .faculty1 {
-        background: url(clg_icon.png);
-        background-size: cover;
-      }
-      .faculty2 {
-        background: url(clg_icon.png);
-        background-size: cover;
-      }
-      .faculty3 {
-        background: url(clg_icon.png);
-        background-size: cover;
-      }
+
       
-      .foot {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 20vh;
-        background-color: rgb(0, 0, 0);
-      }
-      
-      .foot h2 {
-        margin: 10vw 10vw;
-        overflow: hidden;
-      }
+
       .foot {
           height: auto; 
           flex-wrap: wrap; 
@@ -1171,30 +509,118 @@
           font-size: 1em; 
         }
       
-      .foot a {
-        text-decoration: none;
-        color: white;
-        transition: 0.5s;
+    }
+      @media only screen and (max-width: 480px) {
+       
+      header {
+        background-color: rgb(0, 0, 0);
+        padding: 20px 0;
+        width: 100vw;
       }
-    
-      .contact {
-        border: solid white;
-        color:white;
-        border-width: 5px;
-        padding: 10px;
-        display: flex;
-        width: 100px;
-        width: fit-content;
-        height: 28px;
-        border-top-left-radius: 50px;
-        border-bottom-left-radius: 50px;
-        border-bottom-right-radius: 50px;
-        border-top-right-radius: 50px;
       
-        margin: 0 auto;
+      .container {
+        max-width: 480px;
+        margin: 0 5vw;
+      }
+      
+      
+      #navbar li{
+        margin-left: 0.3rem;
+        font-size: 0.7rem;
+        width: 25vw;
       }
 
+      header .second{
+        background-image: url("osc1.png"); 
+        background-repeat: no-repeat;
+        background-size:contain ;
+        width: 60vw;
+        
+      }     
+      .logo-left{
+        width: 15vw;
+      }
+      .logo-right{
+        width: 15vw;
+      }
+      .logo-mid{
+        display: none;
+      }      
 
+      .competitions a:active {
+        background-color: rgba(0, 0, 0, 0);
+      }
+      .competition {
+        height: 23.4vh;
+        width: 80vw;
+      }
+      .competition{
+        background-position: center;
+      }
+      .competition a:active{
+        background-color: #00000000;
+      }
+      .competition a:visited{
+        background-color: #00000000;
+      }
+
+      .contain {
+        height: 14vh;
+      }
+
+      .com {
+        border-radius: 50%;
+        background-color: green;
+        height: 13vh;
+        width: 30vw;
+        border: 2px solid black;
+      }
+      .uc_h2  h2{
+        font-size: 1.2rem;
+   
+      }
+      .uc_h2{
+       width: 60vw;
+       height: 3vh; 
+      }
+
+      .container3 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 13vh;
+      }
+
+      .fac {
+        border-radius: 50%;
+        background-color: yellow;
+        height: 14vh;
+        width: 30vw;
+        border: 2px solid black;
+      }
+
+      
+
+      .foot {
+          height: auto; 
+          flex-wrap: wrap; 
+          justify-content: center; 
+          align-items: center; 
+        }
+      
+        .foot h2 {
+          margin: 5px; 
+          font-size: 1em; 
+        }
+        .names{
+          color: #fff;
+          position: relative;
+          top: 24vh;
+          font-size: 1rem;
+          text-align: center;
+          background-color: rgb(236, 107, 107);
+        }
+      
     }
     
 
@@ -1267,30 +693,36 @@
       <div class="container">
         <article class="competition competition1">
           <div class="uc1_h3"><h3>Hugs to Bugs</h3></div>
+          <h4 class="names"> Hugs To Bugs </h4>
           <a href="hugstobugs" class="rm"></a>
         </article>
         <article class="competition competition2">
           <div class="uc2_h3"><h3>Blind Coding</h3></div>
+          <h4 class="names">Blind Coding</h4>
           <a href="blindcoding"></a>
         </article>
 
         <article class="competition competition3">
           <div class="uc3_h3"><h3>Hackathon</h3></div>
+          <h4 class="names">Hackathon</h4>
           <a href="hackathon"></a>
         </article>
 
         <article class="competition competition4" >
           <div class="uc4_h3"><h3>Chess</h3></div>
+          <h4 class="names">Chess</h4>
           <a href="chess"></a>
         </article>
 
         <article class="competition competition5" >
           <div class="uc5_h3"><h3>Treasure Hunt</h3></div>
+          <h4 class="names">Treasure Hunt</h4>
           <a href="treasurehunt"></a>
         </article>
 
         <article class="competition competition6">
           <div class="uc6_h3"><h3>Project Presentation</h3></div>
+          <h4 class="names">Project Presentation</h4>
           <a href="projectpresent"></a>
         </article>
       </div>
