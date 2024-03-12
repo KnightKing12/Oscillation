@@ -258,6 +258,47 @@
           
             margin: 0 auto;
         }
+        .headInfo{
+        padding: 1rem;
+        display: flex;
+        justify-content: space-around;
+        height: 15vh;
+        text-align: center;
+        border: 0.3rem groove rgba(25, 190, 219, 0.521);
+        width: 80vw;
+      }
+      .head1{
+        display: flex;
+        flex-basis: 20%;
+        align-items: center;
+        justify-content: space-around;
+      
+      }
+      .head2{
+        display: flex;
+        align-items: center;
+        flex-basis: 20%;
+        justify-content: space-around;
+      }
+      .contactus{
+        display: flex;
+        flex-direction: column;
+
+      }
+      .headInfo h2{
+        text-align: center;
+        margin-top: 1.7em;
+      }
+      .headPhoto{
+        width: 5vw;
+        height: 5vw;
+        border-radius: 50%;
+      }
+      .form{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+      }
         @media (max-width:950px) {
             .contact-inputs{
                 width: 88vw;
@@ -289,16 +330,18 @@
                 width: 90vw;
             }
             .regisBtn{
-                width: 25vw;
+                width: 35vw;
             }
             .container_box ul{
                 width: 85vw;
+                height: 62vh;
+                font-size: 1rem;
                 position: fixed;
                 left:-100%;
                 
             }
             #click:checked ~ ul{
-                top: 25vh;
+                top: 10vh;
                 left: 8vw;
             }
             .mid{
@@ -361,6 +404,40 @@
         margin: 0;
         
       }
+      .headInfo{
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        text-align: start;
+        border: 2px solid rgba(25, 190, 219, 0.473);
+        width: 80vw;
+      }
+      .head1{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      
+      }
+      .head2{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .contactus{
+        display: flex;
+        flex-direction: column;
+
+      }
+      .headInfo h2{
+        text-align: center;
+      }
+      .headPhoto{
+        width: 20vw;
+        height: 20vw;
+        border-radius: 50%;
+      }
+      
       
         
         }
@@ -369,7 +446,7 @@
 <body>
     <header>
         <div class="container_box">
-            <span class="third"><img src="2.png" alt="Right Logo" class="logo logo-right"></span>
+            <span class="third"><a href="/" ><img src="2.png" alt="Right Logo" class="logo logo-right"></a></span>
           
           <div class="second">
             <!-- <h1>Vasantdada Patil Pratishthan's College of
@@ -459,20 +536,34 @@
             <!-- </div> -->
         </div>
         <div class="contactus">
-            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
-                <div class="contact-left-title">
-                    <h2>Get in touch</h2>
-                    <hr>
+            <div class="headInfo">
+                <h2>Co-ordinators</h2>
+                <div class="head1">
+                    <img src="project.png" alt="" class="headPhoto">
+                    <h3>Bhavesh Pathak <br> (9876543210)</h3>
                 </div>
-                <input type="hidden" name="access_key" value="f430b27d-db75-47ab-8af9-11ee97bad5b7">
-                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
-                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
-                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
-                <button type="submit">Submit <img src="arrow_icon.png" alt=""></button>
-            </form>
-            <div class="contact-right">
-                <img src="right_img.png" alt="">
+                <div class="head2">
+                   <img src="project.png" alt="" class="headPhoto">
+                    <h3>Shashank Gupta <br> (9876543210)</h3>
+                </div>
             </div>
+            <div class="form">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                    <div class="contact-left-title">
+                        <h2>Get in touch</h2>
+                        <hr>
+                    </div>
+                    <input type="hidden" name="access_key" value="f430b27d-db75-47ab-8af9-11ee97bad5b7">
+                    <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                    <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                    <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                    <button type="submit">Submit <img src="arrow_icon.png" alt=""></button>
+                </form>
+                <div class="contact-right">
+                    <img src="right_img.png" alt="">
+                </div>
+            </div>
+
         </div>
     </div>
 </body>
